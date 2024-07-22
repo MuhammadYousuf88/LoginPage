@@ -252,14 +252,10 @@ h2{
     margin-left: 80px;
 }
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 550px) {
  .main{
     width: 370px;
-    height: 450px;
-    box-shadow: 0px 0px 10px 10px black;
-    backdrop-filter: blur(5px);
-    margin-top: 35px;
-    margin-left: 90px;
+    margin-left: 80px;
 }
 input{
     width: 270px;
@@ -269,9 +265,9 @@ input{
 }
 button{
     width: 185px;
-    height: 40px;
+    height: 35px;
     border-radius: 40px;
-    margin-left: 40px;
+    margin-left: 45px;
 }
 .margin{
     margin-left: 45px;
@@ -284,9 +280,201 @@ h1{
 }
 p{
     margin-left: -14px;
-    color: white;
 }
 h2{
     margin-left: 80px;
 }
+}
+@media screen and (max-width: 500px) {
+ .main{
+    margin-left: 60px;
+}
+}
+@media screen and (max-width: 480px) {
+ .main{
+    margin-left: 50px;
+}
+}
+@media screen and (max-width: 460px) {
+  .main{
+    width: 340px;
+	box-shadow: 0px 0px 9px 9px black;
+
+}
+input{
+    width: 250px;
+}
+button{
+    width: 160px;
+}
+.margin{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+h2{
+    margin-left: 70px;
+}
+}
+@media screen and (max-width: 430px) {
+  .main{
+    width: 320px;
+	box-shadow: 0px 0px 8px 8px black;
+
+}
+input{
+    width: 235px;
+}
+button{
+    width: 150px;
+}
+h2{
+    margin-left: 60px;
+}
+}
+@media screen and (max-width: 410px) {
+  .main{
+    width: 300px;
+	box-shadow: 0px 0px 7px 7px black;
+}
+input{
+    width: 235px;
+}
+button{
+    width: 150px;
+}
+.margin{
+	margin-top: 25px;
+}
+h2{
+    margin-left: 60px;
+}
+}
+@media screen and (max-width: 410px) {
+  .main{
+    width: 300px;
+	height: 450px;
+	box-shadow: 0px 0px 7px 7px black;
+}
+input{
+    width: 220px;
+}
+button{
+    width: 135px;
+}
+.margin{
+	margin-top: 15px;
+}
+h2{
+    margin-left: 50px;
+}
+}
+@media screen and (max-width: 380px) {
+  .main{
+    width: 290px;
+	box-shadow: 0px 0px 6px 6px black;
+}
+input{
+    width: 210px;
+}
+button{
+    width: 125px;
+}
+.margin{
+	margin-top: 10px;
+}
+}
+@media screen and (max-width: 360px) {
+  .main{
+    width: 260px;
+	height: 470px;
+	box-shadow: 0px 0px 6px 6px black;
+}
+input{
+    width: 180px;
+    height: 25px;
+}
+button{
+    width: 125px;
+    height: 25px;
+    border-radius: 40px;
+    margin-left: 33px;
+}
+.margin{
+	margin-top: 0px;
+}
+h2{
+    margin-left: 30px;
+}
+}
+@media screen and (max-width: 360px) {
+  .main{
+    width: 240px;
+	box-shadow: 0px 0px 5px 5px black;
+}
+input{
+    width: 170px;
+	margin-left:-8px;
+}
+button{
+    width: 100px;
+    margin-left: 30px;
+}
+h2{
+    margin-left: 20px;
+}
+}
+@media screen and (max-width: 320px) {
+.main{
+	box-shadow: 0px 0px 4px 4px black;
+	margin-left: 30px;
+}
+}
+@media screen and (max-width: 290px) {
+.main{
+	margin-left: 20px;
+}
+}
+@media screen and (max-width: 290px) {
+.main{
+	width: 200px;
+	margin-left: 30px;
+}
+input{
+    width: 160px;
+	margin-left:-25px;
+}
+button{
+    width: 90px;
+	background-color:yellow;
+    margin-left: 15px;
+}
+p{
+    margin-left: -30px;
+}
+h1{
+	color:yellow;
+    margin-right:50px;
+}
+h2{
+    margin-left: 3px;
+	color:yellow;
+}
+@media screen and (max-width: 250px) {
+.main{
+	width: 180px;
+}
+input{
+    width: 140px;
+}
+button{
+    width: 70px;
+}
+p{
+    margin-left: -30px;
+}
+h1{
+    margin-left:-10px;
+}
+h2{
+    margin-left: -5px;
 }
